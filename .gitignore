@@ -1,0 +1,21 @@
+# node
+node_modules/
+dist/
+.cache/
+.build/
+
+# local dev config
+.dev.vars
+.env
+
+# Firebase/Cloudflare credentials
+*.pem
+*.key
+*.crt
+
+# system
+.DS_Store
+*.log
+
+# wrangler deployment state
+wrangler.toml.local

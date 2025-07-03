@@ -1,0 +1,11 @@
+export interface Env {
+  FIREBASE_PROJECT_ID: string
+  FIREBASE_CLIENT_EMAIL: string
+  FIREBASE_PRIVATE_KEY: string
+  ADMIN_EMAIL: string
+  API_GATEWAY_BASE_URL: string
+  API_GATEWAY_PUBLIC_URL: string
+  SIGNING_SECRET: string
+  CLOUDFLARE_ZONE_ID: string
+  CLOUDFLARE_API_TOKEN: string
+}

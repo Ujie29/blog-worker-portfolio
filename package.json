@@ -1,0 +1,26 @@
+{
+	"name": "blog-worker",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"@cloudflare/workers-types": "^4.20250525.0",
+		"@types/node": "^24.0.8",
+		"@types/node-fetch": "^2.6.12",
+		"typescript": "^5.5.2",
+		"vitest": "~3.0.7",
+		"wrangler": "^4.16.1"
+	},
+	"dependencies": {
+		"dotenv": "^17.0.0",
+		"jose": "^6.0.11",
+		"node-fetch": "^3.3.2"
+	}
+}
